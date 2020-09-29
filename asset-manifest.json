@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nihani/static/css/main.2205ee4e.chunk.css",
+    "main.js": "/nihani/static/js/main.b4b35857.chunk.js",
+    "main.js.map": "/nihani/static/js/main.b4b35857.chunk.js.map",
+    "runtime-main.js": "/nihani/static/js/runtime-main.1bf4243a.js",
+    "runtime-main.js.map": "/nihani/static/js/runtime-main.1bf4243a.js.map",
+    "static/js/2.71282824.chunk.js": "/nihani/static/js/2.71282824.chunk.js",
+    "static/js/2.71282824.chunk.js.map": "/nihani/static/js/2.71282824.chunk.js.map",
+    "index.html": "/nihani/index.html",
+    "precache-manifest.f0edeba6b2f196b297e72b5476d3c7c9.js": "/nihani/precache-manifest.f0edeba6b2f196b297e72b5476d3c7c9.js",
+    "service-worker.js": "/nihani/service-worker.js",
+    "static/css/main.2205ee4e.chunk.css.map": "/nihani/static/css/main.2205ee4e.chunk.css.map",
+    "static/js/2.71282824.chunk.js.LICENSE.txt": "/nihani/static/js/2.71282824.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bf4243a.js",
+    "static/js/2.71282824.chunk.js",
+    "static/css/main.2205ee4e.chunk.css",
+    "static/js/main.b4b35857.chunk.js"
+  ]
+}
