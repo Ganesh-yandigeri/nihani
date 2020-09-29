@@ -19,7 +19,7 @@ const App = () => {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/nihani/" component={Home} />
           <Route exact path="/add-contact" component={AddContact} />
           <Route exact path="/edit-contact/:id" component={EditContact} />
           <Route exact path="/cart-item" component={CartItem} />
