@@ -22,7 +22,7 @@ const Home = (props) => {
     return (
         <>
         {
-            selectedContacts.length != 0 ? (
+            selectedContacts.length !== 0 ? (
                 <button 
                 className="btn btn-danger" 
                 onClick={(e) => dispatch(deleteAllContacts())}>delete all</button>

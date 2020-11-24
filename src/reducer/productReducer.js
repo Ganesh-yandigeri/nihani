@@ -93,6 +93,7 @@ export const productReducer = (state = initialState, action) =>{
                 cartSubtotal: (state.cartSubtotal + action.payload.price)
             }
         }
+        break
         case SUB_ONE_ITEM:
             const subExistingCartItem = state.cart.filter((cart) => cart.id === action.payload.id);
             if(subExistingCartItem.length > 0 && action.payload.units > 1){
@@ -107,6 +108,7 @@ export const productReducer = (state = initialState, action) =>{
                 cartSubtotal: (state.cartSubtotal - action.payload.price)
             }
         }
+        break
         default:
             return state;
     } 

@@ -10,7 +10,7 @@ const ProductList = (props) => {
     const {id, name, img, price, available} = props;
 
     const Button = ({available}) =>{
-        if(available == 1)
+        if(available === 1)
         return ( <button 
                     className="f6 grow no-underline br-pill ba ph3 pv2 mb2 dib navy btn-primary"
                     onClick={()=>{dispatch(productData({id, name, img, price, units: 1}))}}
@@ -29,7 +29,7 @@ const ProductList = (props) => {
         <>
             <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
             <div className="tc">
-                <img src={img} className="br-100 h4 w4 dib ba b--black-05 pa2" title={name} />
+                <img src={img} className="br-100 h4 w4 dib ba b--black-05 pa2" title={name} alt={name} />
             <h1 className="f3 mb2">{name}</h1>
             <h2 className="f5 fw4 gray mt0">$ {price}</h2>
             
